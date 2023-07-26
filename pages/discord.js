@@ -8,7 +8,7 @@ const DiscordInvite = () => {
         if(typeof window !== 'undefined'){
             router.push('https://discord.gg/SQtNSZvKDJ')
         }
-    }, [])
+    }, [router])
 
     return null;
 }
